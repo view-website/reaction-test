@@ -1,0 +1,43 @@
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  body{
+    padding-top: 14%;
+    vertical-align: middle;
+    text-align: center;
+  }
+  h1{
+    font-family: 'Quicksand', sans-serif;
+    max-width: 600px;
+    display:inline-block;
+    position:relative;
+    cursor: pointer;
+  }
+  div{
+    background-color: rgb(37, 37, 37);
+    border-radius: 25px;
+    display:block;
+    max-width: fit-content;
+    display:inline-block;
+    position:relative;
+  }
+  #right{
+    margin-right: 25px;
+  }
+  #left{
+    margin-left: 25px;
+  }
+  #time{
+    font-size: 25px;
+    font-family: 'Ysabeau SC', sans-serif;
+  }
+  #not-needed{
+    font-size: 0px;
+  }

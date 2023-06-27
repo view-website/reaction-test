@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="icon" href="assets/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Ysabeau+SC:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<h1 onclick="if (count < 6){myTimer = setInterval(start, 1000)} else{clearInterval(myTimer)}" id="header">click on this if you are ready</h1>
+<body id="body">
+<br>
+<div onClick="clearInterval(tester)"> 
+<span class="dot" id ="left"></span>
+<span class="dot" id="mid"></span>
+<span class="dot" id="mid1"></span>
+<span class="dot" id="mid2"></span>
+<span class="dot" id="right"></span>
+</div>
+<br><br><br><br><br><br>
+<p id="time"></p>
+<p id="not-needed"></p>
+</body>
+</html>
