@@ -4,17 +4,18 @@ const time = document.getElementById("time");
 var count = 0
 var click = 0
 function restart(){
-c = 0;
-count = 0;
-click = 0;
-rand = 0;
-document.getElementById("not-needed").innerHTML = ""
-document.getElementById("time").innerHTML = ""
-document.getElementById("left").style.backgroundColor = "#bbb"
-document.getElementById("mid").style.backgroundColor = "#bbb"
-document.getElementById("mid1").style.backgroundColor = "#bbb"
-document.getElementById("mid2").style.backgroundColor = "#bbb"
-document.getElementById("right").style.backgroundColor = "#bbb"
+    rand = Math.floor(Math.random() * 4000) + 100;
+    c = 0;
+    count = 0;
+    click = 0;
+    rand = 0;
+    document.getElementById("not-needed").innerHTML = ""
+    document.getElementById("time").innerHTML = ""
+    document.getElementById("left").style.backgroundColor = "#bbb"
+    document.getElementById("mid").style.backgroundColor = "#bbb"
+    document.getElementById("mid1").style.backgroundColor = "#bbb"
+    document.getElementById("mid2").style.backgroundColor = "#bbb"
+    document.getElementById("right").style.backgroundColor = "#bbb"
 }
 function start(){
     document.getElementById("not-needed").innerHTML = ++c
