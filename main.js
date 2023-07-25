@@ -8,7 +8,6 @@ function restart(){
     c = 0;
     count = 0;
     click = 0;
-    rand = 0;
     document.getElementById("not-needed").innerHTML = ""
     document.getElementById("time").innerHTML = ""
     document.getElementById("left").style.backgroundColor = "#bbb"
